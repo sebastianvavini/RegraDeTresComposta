@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+
+        >
+
+
+        <EditText
+            android:id="@+id/editText_Numero1_Dias"
+            android:padding="16dp"
+            android:hint=" Se levo... "
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/textViewDias"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n° de Dias"/>
+
+        <EditText
+            android:id="@+id/editText_Numero1_Paginas"
+            android:padding="16dp"
+            android:hint="para ler..."
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:id="@+id/textViewPaginas"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n° de páginas"/>
+
+
+        <EditText
+            android:id="@+id/editText_Numero1_HorasPorDia"
+            android:padding="16dp"
+            android:hint="me dedicando..."
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:id="@+id/textViewHorasPorDia"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n° de Horas/Dia"/>
+
+        <TextView
+            android:id="@+id/textViewEntao"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Então"/>
+
+        <EditText
+            android:id="@+id/editTextNumero2Paginas"
+            android:padding="16dp"
+            android:hint=" ... para ler..."
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/textViewNumero2Paginas"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n° de Paginas"/>
+
+        <EditText
+            android:id="@+id/editText_Numero2_HorasPorDia"
+            android:padding="16dp"
+            android:hint="dedicando.."
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:id="@+id/textViewNumeroHorasPorDia2"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n° de Horas/Dia"/>
+
+
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"/>
+
+        <Button
+
+            android:id="@+id/button_calculate"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Calcular"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
